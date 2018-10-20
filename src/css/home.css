@@ -1,0 +1,12 @@
+.middlePart .ant-spin-nested-loading {
+    width: 100%;
+}
+
+.middlePart .ant-list-item {
+    width: calc(100% - 10px);
+}
+.middlePart .ant-spin-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}

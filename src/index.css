@@ -1,0 +1,52 @@
+@import '~antd/dist/antd.css';
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background:#f2f2f2;
+  overflow-x:hidden;
+}
+
+ul li{list-style: none}
+a{text-decoration: none;color:#333;}
+.contentBox{width:90%;margin:10px auto;}
+
+
+
+.ant-carousel .slick-slide {
+  text-align: center;
+  height: 160px;
+  line-height: 160px;
+  background: #364d79;
+  overflow: hidden;
+}
+.ant-carousel .slick-slide h3 {
+  color: #fff;
+}
+
+.ant-carousel .slick-initialized .slick-slide {
+   height:320px ! important;
+}
+/*.ant-list-item div{display: flex}*/
+
+.list-item{
+border-bottom: 1px solid #e8e8e8;
+padding: 12px 0;
+}
+.ant-list-item-content{
+  align-items:center
+}
+
+.listItem{ border-bottom: 1px solid #e8e8e8;padding-bottom: 12px;}
+.itemNumber{width:40px;height:40px;border-radius: 40px;color:#fff;background-color: #187ED2;text-align: center;line-height: 40px;margin-right:20px;font-size:16px;font-weight: bold}
+.itemTitle{font-weight: bold;font-size:16px;line-height: 40px}
+
+.demo-nav{display:flex;justify-content: space-around;}
+.demo-nav a{display:flex;align-items: center;justify-content: center;width:100px;height:100px;text-align: center;border-radius: 50%;background-color: #ccc;color:#fff;}
+.aboutIcon{display: flex;justify-content: center;font-size:30px;font-weight:bold;}
+
+.demo-nav .active{box-shadow: 0px 1px 10px rgba(0,0,0,.4);text-decoration:none;font-weight: bold;}
+.aboutBox{margin:10px auto;}
+.title{text-align: center;line-height: 30px;margin-top:20px;}
+
+.sucessPart .ant-list-item-content {width: 100%;}
